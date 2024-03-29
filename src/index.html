@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Главная страница</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Первая секция -->
+	<section class="first-section">
+
+		<!-- Nav-bar -->
+		<div class="container first-section__nav-container">
+			<header class="first-section__header">
+				<img src="icons/logo.svg" alt="">
+			</header>
+			<nav class="first-section__nav nav-menu">
+				<ul class="nav-menu__list">
+					<li class="nav-menu__list_item"><a href="#main">ГЛАВНАЯ</a></li>
+					<li class="nav-menu__list_item"><a href="#clubs">НАШИ КЛУБЫ</a></li>
+					<li class="nav-menu__list_item"><a href="#list">УСЛУГИ</a></li>
+					<li class="nav-menu__list_item"><a href="#club-cards">КЛУБНЫЕ КАРТЫ</a></li>
+					<li class="nav-menu__list_item"><a href="#employee">КОМАНДА</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- Контейнер первой секции -->
+		<div class="container first-section__content-container">
+			<div class="first-section__background">
+				<img src="img/background-pool.png" alt="">
+			</div>
+			<!-- Полоса с формой 1 -->
+			<div class="first-wrapper">
+				<div class="first-wrapper__content" id=main>
+						<img src="img/harmonica.png" alt="" class="first-wrapper__harmonica">
+					<div class="first-wrapper__content_form form">
+						<h1 class="form__header">ТУР ПО НАШИМ КЛУБАМ</h1>
+						<input placeholder="Ваше имя" name="name" class="form__item input">
+						<input placeholder="Ваш номер" name="phone" class="form__item input">
+						<input type="submit" formmethod="post" value="ЗАПИСАТЬСЯ" class="form__item button">
+					</div>
+				</div>
+				<div class="first-wrapper__rectangle_blue"></div>
+				<div class="first-wrapper__rectangle_light-blue"></div>
+			</div>
+        </div>
+	</section>
+
+	<!-- Вторая секция -->
+	<section class="second-section">
+
+		<!-- Список преимуществ -->
+		<div class="container second-section__list" id=list>
+			<header class="second-section__list_header">
+				<h1>НАШИ ПРЕИМУЩЕСТВА</h1>
+			</header>
+			<div class="second-section__list_info info">
+				<div class="info__item">
+					<img src="icons/iron.svg" alt="" class="info__item_image">
+					<h2 class="info__item_heading">ТРЕНАЖЁРНЫЙ ЗАЛ</h2>
+					<ul class="info__item_content">
+						<li>Современные тренажеры премиум класса</li>
+						<li>Профессиональные штанги и грузоблочные тренажеры</li>
+						<li>Свободные веса и зоны функционального тренинга</li>
+						<li>Элиптические и велотренажеры</li>
+					</ul>
+					<a href=https://vicfitness.ru/zheleznodorozhnaya/><div class="info__item_button">Узнать больше</div></a>
+				</div>
+				<div class="info__item">
+					<img src="icons/group.svg" alt="" class="info__item_image">
+					<h2 class="info__item_heading"> ГРУППОВЫЕ ПРОГРАММЫ</h2>
+					<ul class="info__item_content">
+						<li>Широкая сетка расписания</li>
+						<li>Более 200 уроков в месяц</li>
+						<li>3 зала групповых программ</li>
+						<li>Просторные, светлые и чистые помещения</li>
+						<li>Силовые и танцевальные направления</li>
+						<li>Разносторонние современные направления</li>
+					</ul>
+					<a href=https://vicfitness.ru/zheleznodorozhnaya/><div class="info__item_button">Узнать больше</div></a>
+				</div>
+				<div class="info__item">
+					<img src="icons/yoga.svg" alt="" class="info__item_image">
+					<h2 class="info__item_heading"> ЗОНА  ОТДЫХА</h2>
+					<ul class="info__item_content">
+						<li>Интернет-кафе</li>
+						<li>Комфортные сауны в раздевалках</li>
+						<li>Бесплатный клубный Wi-Fi</li>
+						<li>Cardio Cinema</li>
+					</ul>
+					<a href=https://vicfitness.ru/zheleznodorozhnaya/><div class="info__item_button">Узнать больше</div></a>
+				</div>
+				<div class="info__item">
+					<img src="icons/swim.svg" alt="" class="info__item_image">
+					<h2 class="info__item_heading"> ВОДНЫЕ ПРОГРАММЫ</h2>
+					<ul class="info__item_content">
+						<li>Большой бассейн 25м, 3 дорожки</li>
+						<li>Детский бассейн</li>
+						<li>Водные программы</li>
+						<li>Зона гидромассажа</li>
+						<li>Персональный тренинг для взрослых и детей</li>
+					</ul>
+					<a href=https://vicfitness.ru/zheleznodorozhnaya/><div class="info__item_button">Узнать больше</div></a>
+				</div>
+				<div class="info__item">
+					<img src="icons/kids.svg" alt="" class="info__item_image">
+					<h2 class="info__item_heading"> ДЕТСКИЙ ФИТНЕС</h2>
+					<ul class="info__item_content">
+						<li>Большой выбор занятий</li>
+						<li>Гимнастика, единоборства</li>
+						<li>Детская комната</li>
+						<li>Корректирующие и развивающие занятия</li>
+						<li>Проведение детскиъ праздников и дней рождения</li>
+						<li>Детские групповые программы</li>
+					</ul>
+					<a href=https://vicfitness.ru/zheleznodorozhnaya/><div class="info__item_button">Узнать больше</div></a>
+				</div>
+				<div class="info__item">
+					<img src="icons/quote.svg" alt="" class="info__item_image">
+					<h3 class="info__item_heading"> КОРРЕКЦИОННЫЕ ПРОГРАММЫ</h3>
+					<ul class="info__item_content">
+						<li>Роликовый тренажер (Beauty Roll Prof)</li>
+						<li>Виброплатформа (tion Platforms Phislopate gold)</li>
+						<li>Термопохудение (Body Shaping)</li>
+						<li>Баротренажер (Prof)</li>
+						<li>Прессотерапия</li>
+					</ul>
+					<a href=https://vicfitness.ru/zheleznodorozhnaya/><div class="info__item_button">Узнать больше</div></a>
+				</div>
+				<div class="info__item">
+					<img src="icons/heart.svg" alt="" class="info__item_image">
+					<h3 class="info__item_heading"> ФУНКЦИОНАЛЬНАЯ ДИАГНОСТИКА</h3>
+					<ul class="info__item_content">
+						<li>Фитнес тестирование</li>
+						<li>Состав тела (биомпедансометрия</li>
+						<li>Медискрин</li>
+						<li>Консультация по питанию</li>
+					</ul>
+					<a href=https://vicfitness.ru/zheleznodorozhnaya/><div class="info__item_button">Узнать больше</div></a>
+				</div>
+				<div class="info__item">
+					<img src="icons/other.svg" alt="" class="info__item_image">
+					<h3 class="info__item_heading"> ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ </h3>
+					<ul class="info__item_content">
+						<li>Зал единоборств с большим рингом</li>
+						<li>Массажный кабинет</li>
+						<li>Зона настольного тенниса</li>
+						<li>Турецкая баня</li>
+						<li>Финская сауна</li>
+					</ul>
+					<a href=https://vicfitness.ru/zheleznodorozhnaya/><div class="info__item_button">Узнать больше</div></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Клубы -->
+		<div class="container second-section__clubs" id=clubs>
+			<header class="second-section__clubs_header">
+				<h1>ВЫБЕРИ СВОЙ КЛУБ</h1>
+			</header>
+			<div class="second-section__clubs_content clubs">
+				<div class="clubs__item">
+					<img src="img/club/pool.png" alt="" class="clubs__item_image">
+					<h2 class="clubs__item_heading">ЗВЁЗДОЧКА</h2>
+					<p class="clubs__item_text">Семейный клуб, которые дает уникальную возможность собрать всю семью вместе и при этом уделять внимание себе. Детям в этом клубе предлагается большой спектр спортивных, танцевальных, творческих и развивающих занятий, в то время как родители выбирают занятия себе по душе. В этом клубе более 40 видов групповых программ для мам. Есть большой тренажерный зал, где большую часть времени проводят папы. После посещения тренировок по индивидуальному выбору, вся семья может вместе провести время в бассейне.</p>
+					<a href="https://vicfitness.ru/zheleznodorozhnaya/"><div class="clubs__item_button">Узнать больше</div></a>
+				</div>
+				<div class="clubs__item">
+					<img src="img/club/gym.png" alt="" class="clubs__item_image">
+					<h2 class="clubs__item_heading">СЕВЕРНЫЙ</h2>
+					<p class="clubs__item_text">Динамичный клуб с особой энергетикой. Здесь дружеская и спортивная атмосфера, в которой занимаются люди, увлеченные спортом. В клубе имеется тренажерный зал и залы групповых программ В качестве дополнительных услуг, в клубе можно выбрать секции для ребенка исходя из желаний и предпочтений (танцы, карате, плавание и др.)</p>
+					<a href="https://osipenko.vicfitness.ru/"><div class="clubs__item_button">Узнать больше</div></a>
+				</div>
+				<div class="clubs__item">
+					<img src="img/club/hammocks.png" alt="" class="clubs__item_image">
+					<h2 class="clubs__item_heading">ТОНУС</h2>
+					<p class="clubs__item_text">Камерный клуб с индивидуальным подходом к каждому посетителю. Этот клуб создан для тех, кто готов идти к своей цели без изнурительных тренировок. Здесь можно уйти от бытовых проблем и окунуться в атмосферу тепла и уюта, и уделить время себе.</p>
+					<a href="https://tonus.vicfitness.ru/"><div class="clubs__item_button">Узнать больше</div></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Карты -->
+		<div class="container second-section__club-cards" id=club-cards>
+			<header class="second-section__clubs_header">
+				<h1>КЛУБНЫЕ КАРТЫ</h1>
+			</header>
+			<div class="second-section__club-cards_content club-cards">
+				<div class="club-cards__item">
+					<img src="img/cards/card1.png" alt="" class="club-cards__item_image">
+					<h2 class="club-cards__item_heading">VIP КАРТА</h2>
+					<div class="club-cards__item_info">
+						<p class="club-cards__item_text">
+							<b>Полный доступ</b><br>
+							Посещение фитнес-клуба в любое удобное время в часы работы клуба.<br>
+							<br>
+							<b>Срок действия</b><br>
+							12 месяцев<br>
+							<br>
+							<b>Заморозка</b><br>
+							60 дней<br>
+							<br>
+							<b>Дополнительно</b>
+						</p>
+						<ul class="club-cards__item_list">
+							<li>Стартовый пакет (инструктажи в каждой тренировочной зоне, фитнес-тестирование, рекомендации по программе тренировки с учётом индивидуальных целей)</li>
+							<li>5 персональных тренировок с тренером (тренажёрный зал, групповые программы на выбор)</li>
+							<li>3 гостевых визитов</li>
+						</ul>
+					</div>
+					<a href="#main"><div class="club-cards__item_button">ВПЕРЁД!</div></a>
+				</div>
+				<div class="club-cards__item">
+					<img src="img/cards/card2.png" alt="" class="club-cards__item_image">
+					<h2 class="club-cards__item_heading">ВЗРОСЛАЯ КАРТА</h2>
+					<div class="club-cards__item_info">
+						<p class="club-cards__item_text">
+							<b>Дневной доступ</b><br>
+							Посещение фитнес-клуба в рабочие дни с 7.00 до 17.00<br>
+							<br>
+							<br>
+							<b>Срок действия</b><br>
+							12 месяцев<br>
+							<br>
+							<b>Заморозка</b><br>
+							30 дней<br>
+							<br>
+							<b>Дополнительно</b>
+						</p>
+						<ul class="club-cards__item_list">
+							<li>Стартовый пакет (инструктажи в каждой тренировочной зоне, фитнес-тестирование, рекомендации по программе тренировки с учётом индивидуальных целей)</li>
+							<li>3 гостевых визитов</li>
+						</ul>
+					</div>
+					<a href="#main"><div class="club-cards__item_button">ВПЕРЁД!</div></a>
+				</div>
+				<div class="club-cards__item">
+					<img src="img/cards/card3.png" alt="" class="club-cards__item_image">
+					<h2 class="club-cards__item_heading">ДЕТСКАЯ КАРТА</h2>
+					<div class="club-cards__item_info">
+						<p class="club-cards__item_text">
+							<b>Полный доступ</b><br>
+							Посещение фитнес-клуба в любое удобное время в часы работы клуба.<br>
+							<br>
+							<b>Срок действия</b><br>
+							12 месяцев<br>
+							<br>
+							<b>Заморозка</b><br>
+							30 дней<br>
+							<br>
+							<b>Дополнительно</b>
+						</p>
+						<ul class="club-cards__item_list">
+							<li>Посещение детского клуба согласно режиму работы</li>
+							<li>Посещение бассейна и уроков по плаванию согласно расписанию</li>
+							<li>Посещение оздоровительных и спортивных уроков согласно возрастной группе</li>
+						</ul>
+					</div>
+					<a href="#main"><div class="club-cards__item_button">ВПЕРЁД!</div></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Полоса с формой 2 -->
+		<div class="second-wrapper container">
+				<div class="second-wrapper__content">
+						<img src="img/man.png" alt="" class="second-wrapper__man">
+					<div class="second-wrapper__content-form form">
+						<h1 class="form__header">ОСТАЛИСЬ ВОПРОСЫ?</h1>
+						<input placeholder="Ваше имя" name="name" class="form__item input">
+						<input placeholder="Ваш номер" name="phone" class="form__item input">
+						<input type="submit" formmethod="post" value="ЗАКАЗАТЬ ЗВОНОК" class="form__item button">
+					</div>
+				</div>
+				<div class="second-wrapper__rectangle_blue"></div>
+				<div class="second-wrapper__rectangle_light-blue"></div>
+		</div>
+	</section>
+
+	<!-- Третья секция -->
+	<section class="third-section">
+		<div class="third-section__cards container" id=employee>
+			<h1>НАША КОМАНДА</h1>
+
+			<div class="third-section__slider container">
+				<h1>Звёздочка</h1>
+				<div class="wrapper">
+					<input type="radio" name="point" id="slide1" checked>
+					<input type="radio" name="point" id="slide2">
+					<input type="radio" name="point" id="slide3">
+					<input type="radio" name="point" id="slide4">
+					<input type="radio" name="point" id="slide5">
+					<input type="radio" name="point" id="slide6">
+					<input type="radio" name="point" id="slide7">
+					<input type="radio" name="point" id="slide8">
+					<div class="slider">
+						<div class="slides slide1">
+							<div class="slides__content">
+								<img src="img/employee/star/AP.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Алексей Петрухин</h3>
+								<p class="slides__content_text">Руководитель тренажерного зала</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/IKo.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Илья Копарев</h3>
+								<p class="slides__content_text">Тренер тренажерного зала</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/DK.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Дмитрий Кондрашкин</h3>
+								<p class="slides__content_text">Тренер тренажерного зала</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/RU.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Роман Украинцев</h3>
+								<p class="slides__content_text">Тренажер тренажерного зала</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+						</div>
+						<div class="slides slide2">
+							<div class="slides__content">
+								<img src="img/employee/star/AG.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Арсений Гордеев</h3>
+								<p class="slides__content_text">Тренажер тренажерного зала</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/EP.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Екатерина Пахний</h3>
+								<p class="slides__content_text">Тренажер тренажерного зала</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/OSa.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Оксана Сапунова</h3>
+								<p class="slides__content_text">Тренажер тренажерного зала</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/DA.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Дмитрий Агалков</h3>
+								<p class="slides__content_text">Тренажер тренажерного зала</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+						</div>
+						<div class="slides slide3">
+							<div class="slides__content">
+								<img src="img/employee/star/TG.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Таисия Гаврилова</h3>
+								<p class="slides__content_text">Тренажер тренажерного зала</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/AP.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Алексей Петрухин</h3>
+								<p class="slides__content_text">Руководитель групповых программ</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/NE.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Наталья Елхова</h3>
+								<p class="slides__content_text">Тренер групповых программ</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/TK.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Татьяна Ковтун</h3>
+								<p class="slides__content_text">Тренер групповых программ</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+						</div>
+						<div class="slides slide4">
+							<div class="slides__content">
+								<img src="img/employee/star/MN.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Михаил Никитин</h3>
+								<p class="slides__content_text">Тренер групповых программ</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/IMak.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Ирина Макова</h3>
+								<p class="slides__content_text">Тренер по йоге</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/VS.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Владимир Семенов</h3>
+								<p class="slides__content_text">Тренер по ёоге</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/IMash.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Илья Машнинов</h3>
+								<p class="slides__content_text">Тренер по йоге</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+						</div>
+						<div class="slides slide5">
+							<div class="slides__content">
+								<img src="img/employee/star/ML.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Михаил Ларин</h3>
+								<p class="slides__content_text">Тренер по латино-американским танцам</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/TG.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Таисия Гаврилова</h3>
+								<p class="slides__content_text">Тренер по групповым программам</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/EZ.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Екатерина Зуенкова</h3>
+								<p class="slides__content_text">Тренер по групповым программам</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/SG.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Сергей Грибков</h3>
+								<p class="slides__content_text">Тренер по боксу</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+						</div>
+						<div class="slides slide6">
+							<div class="slides__content">
+								<img src="img/employee/star/RV.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Роман Васильев</h3>
+								<p class="slides__content_text">Руководитель водных программ</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/OSo.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Ольга Сон</h3>
+								<p class="slides__content_text">Тренер водных программ</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/AK.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Артём Киселёв</h3>
+								<p class="slides__content_text">Тренер водных программ</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/YF.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Юрий Фирсов</h3>
+								<p class="slides__content_text">Тренер водных программ</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+						</div>
+						<div class="slides slide7">
+							<div class="slides__content">
+								<img src="img/employee/star/IKa.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Иван Карев</h3>
+								<p class="slides__content_text">Дежурный тренер водных программ</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/AL.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Алина Лабутина</h3>
+								<p class="slides__content_text">Руководитель детского клуба</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/OSh.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Ольга Шишкова</h3>
+								<p class="slides__content_text">Тренер по грудничковому плавнию</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/YD.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Яна Двоянова</h3>
+								<p class="slides__content_text">Тренер детского клуба</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+						</div>
+						<div class="slides slide8">
+							<div class="slides__content">
+								<img src="img/employee/star/ED.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Евгения Дзвоновская</h3>
+								<p class="slides__content_text">Тренер детского клуба</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/MR.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Мария Романова</h3>
+								<p class="slides__content_text">Тренер детского клуба</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content">
+								<img src="img/employee/star/AS.jpg" alt="" class="slides__content_image">
+								<h3 class="slides__content_header">Александр Шайдров</h3>
+								<p class="slides__content_text">Тренер детского клуба</p>
+								<a href="https://vicfitness.ru/zheleznodorozhnaya/komanda/"><div class="slides__content_button">Узнать больше</div></a>
+							</div>
+							<div class="slides__content_hollow">
+							</div>
+						</div>
+					</div>
+					<div class="controls">
+						<label for="slide1"></label>
+						<label for="slide2"></label>
+						<label for="slide3"></label>
+						<label for="slide4"></label>
+						<label for="slide5"></label>
+						<label for="slide6"></label>
+						<label for="slide7"></label>
+						<label for="slide8"></label>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Полоса с формой 3 -->
+			<div class="third-wrapper container">
+				<div class="third-wrapper__content">
+					<div class="third-wrapper__content_text">
+						<h1>ВСЕ ОПЦИИ КЛУБА В ТВОЕМ ТЕЛЕФОНЕ</h1>
+						<h3>Устанавливай мобильное приложение и будь в курсе всех событий клуба</h3>
+						<a href="https://apps.apple.com/ru/app/%D0%B2%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D1%8F-%D1%84%D0%B8%D1%82%D0%BD%D0%B5%D1%81/id1276036317"><img src="img/appstore.png" alt=""></a>
+						<a href="https://play.google.com/store/apps/details?id=com.itrack.oooviktoriyafit222185"><img src="img/googleplay.png" alt=""></a>
+					</div>
+					<div class="third-wrapper__content_image">
+						<img src="img/phone.png" alt="">
+					</div>
+				</div>
+				<div class="third-wrapper__rectangle_blue"></div>
+				<div class="third-wrapper__rectangle_light-blue"></div>
+			</div>
+
+		<!-- Адрес -->
+			<div class="third-section__adress container">
+				<div class="third-section__adress_text">
+					<h2>АДРЕСА И <br>МЕСТОПОЛОЖЕНИЕ</h2>
+
+					<h3>ЗВЁЗДОЧКА</h3>
+					<p>
+					Московская область <br>
+					г.Сергев Посад <br>
+					ул.Железнодорожная 37А <br>
+					+7 (499) 430-05-17 <br>
+					info@victfitness.ru
+					</p>
+
+					<h3>СЕВЕРНЫЙ</h3>
+					<p>
+					Московская область <br>
+					г.Сергев Посад <br>
+					ул.Осипенко 8 <br>
+					+7 (495) 215-11-59 <br>
+					info@victfitness.ru
+					</p>
+
+					<h3>ТОНУС</h3>
+					<p>
+					Московская область <br>
+					г.Сергев Посад <br>
+					пр-т Красной Армии 203B <br>
+					+7 (499) 110-47-54 <br>
+					Tonus@victfitness.ru
+					</p>
+
+					<h3>ЧАСЫ РАБОТЫ</h3>
+					<p><b>ПН-ПТ</b>07:00-24:00</p>
+					<p><b>СБ-ВС</b>08:00-23:00</p>
+				</div>
+
+				<a href="https://yandex.ru/maps/?filter=alternate_vertical%3ARequestWindow&ll=38.188453%2C56.325650&mode=search&sctx=ZAAAAAgBEAAaKAoSCYoipG5nEUNAEXiAJy1cKExAEhIJK4iBrn0BxT8R4xsKn62Dsz8iBgABAgMEBSgKOABAgFRIAWI7cmVsZXZfcmFua2luZ19oZWF2eV9yZWxldl9zZXJwX2Zvcm11bGE9MC42MDpsM19kYzM3ODM0NV9leHBiO3JlbGV2X3JhbmtpbmdfaGVhdnlfcmVsZXZfd29ybGRfZm9ybXVsYT0wLjc6bDNfZGMzNzgzNDVfZXhwYjtyZWxldl9yYW5raW5nX2hlYXZ5X3JlbGV2X21hcHNfZm9ybXVsYT0wLjYwOmwzX2RjMzc4MzQ1X2V4cGJOcmVhcnI9c2NoZW1lX0xvY2FsL0dlby9SdWJyaWNSZWFycmFuZ2VzL1JlYXJyYW5nZVJ1YnJpY0J5L0Rpc2FibGVHdWRpbmlSZWFycj0xagJydZ0BzcxMPaABAKgBAL0BQTvGOMIBEJCSlIYM8qrxgaQD46uvwAzqAQDyAQD4AQCCAh3QktC40LrRgtC%2B0YDQuNGPINCk0LjRgtC90LXRgYoCAJICAJoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=38.188453%2C56.325650&sspn=0.188511%2C0.087539&text=%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D0%A4%D0%B8%D1%82%D0%BD%D0%B5%D1%81&z=12.8">
+					<img class="third-section__adress_map" src="img/map.jpg" alt="">
+				</a>
+			</div>
+		</section>
+
+	<div class="footer container">
+		<div class="footer__content">
+			<img src="icons/logo_white.svg" alt="" class="footer__content_logo">
+			<div class="footer__content_text">
+				<div class="footer__content_text-1">
+				<ul>
+					<li><b>УСЛУГИ</b></li>
+					<li><a href="">Персональные тренировки</a></li>
+					<li><a href="">Групповые тренировки</a></li>
+					<li><a href="">Студия Пилатес</a></li>
+					<li><a href="">Детские секции и тренировки</a></li>
+					<li><a href="">Дни Рождения для детей</a></li>
+				</ul>
+			</div>
+			<div class="footer__content_text-2">
+				<ul>
+					<li><b>ПОЛЕЗНОЕ</b></li>
+					<li><a href="">О клубе</a></li>
+					<li><a href="">Клубные карты</a></li>
+					<li><a href="">Команда</a></li>
+					<li><a href="">Расписание</a></li>
+					<li><a href="">Контакты</a></li>
+					<li><a href="">Вакансии</a></li>
+				</ul>
+			</div>
+			<div class="footer__content_text-3">
+				<ul>
+					<li><b>ДОПОЛНИТЕЛЬНО</b></li>
+					<li><a href="">Политика конфиленциальности</a></li>
+					<li><a href="">Контактные данные и реквизиты</a></li>
+					<li><a href="">Правила оплаты</a></li>
+					<li><a href="">Правила возврата</a></li>
+				</ul>
+			</div>
+		</div>
+			<div class="footer__content_icons">
+				<a href="https://t.me/vicfitnessrus"><img src="icons/tg.svg" alt=""></a>
+				<a href="https://ok.ru/group/63284450492586"><img src="icons/ok.svg" alt=""></a>
+				<a href="https://www.youtube.com/@vicfitnessrus"><img src="icons/yt.svg" alt=""></a>
+				<a href="https://vk.com/vicfitness"><img src="icons/vk.svg" alt=""></a>
+			</div>
+			</div>
+		<div class="footer__rectangle_blue"></div>
+		<div class="footer__rectangle_light-blue"></div>
+	</div>
+</body>
+</html>
